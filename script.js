@@ -64,12 +64,11 @@ async function getdata(){
     }
 }
 
-        //creating a div with id as container and appending to body document
+        //creating a heading
         const heading = document.createElement("h1");
         heading.id = "heading";
         heading.textContent="Breweries List";
         document.body.append(heading);
-
 
         //creating a div with id as container and appending to body document
         const mydiv2 = document.createElement("div");
